@@ -18,6 +18,7 @@ h1 {
 main {
     max-width: 930px;
     margin: 4rem auto;
+    margin-top: -8rem;
     /* border: 3px dashed red; */
 }
 
@@ -42,8 +43,13 @@ section img {
 
 
 
-@media (min-width: 700px) {
+@media (max-width: 700px) {
     .news-feed {
-        grid-gap: 28px
+        padding: 3.75%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: 0;
+        grid-row-gap: 20px;
     }
+
 }
