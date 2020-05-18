@@ -42,7 +42,6 @@ section img {
     box-shadow: 5px 10px 5px darkgrey;
 }
 
-
 @media (min-width: 700px) {
     .news-feed {
         grid-gap: 28px

@@ -1,0 +1,59 @@
+form {
+    border: 3px solid rosybrown;
+    box-shadow: 10px 10px lightgray;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 40%;
+    margin-right:50%;
+    /* background-color: gray; */
+}
+
+input {
+    /* border: 3px dashed green; */
+    margin-top: 15px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+h1 {
+    /* border: 3px dashed plum; */
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.contact-icons {
+    /* border: 3px dashed darkgreen; */
+    text-align: center;
+    padding-top: 50px;
+}
+
+i {
+    /* border: 3px dashed darkblue; */
+    font-size: 50px;
+    margin: 20px;
+}
+
+.contact-icons a {
+    color: rosybrown;
+    
+}
+
+.fas {
+    text-shadow:1px 6px lightgray
+}
+
+.fab {
+    text-shadow:1px 6px lightgray
+}
+
+.contact-icons  a:visited {
+    color: rosybrown;
+}
+
+
+
+
