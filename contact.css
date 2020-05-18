@@ -2,7 +2,6 @@ body {
     background-color: #A53F40;
 }
 
-
 form {
     /* border: 3px solid rosybrown; */
     /* box-shadow: 8px 8px 5px 1px rgba(17, 17, 17, 0.438); */
@@ -49,20 +48,20 @@ i {
 }
 
 .contact-icons a {
-    color: rosybrown;
+    color: black;
     
 }
 
 .fas {
-    text-shadow:1px 6px lightgray
+    text-shadow:1px 6px rgba(17, 17, 17, 0.438);
 }
 
 .fab {
-    text-shadow:1px 6px lightgray
+    text-shadow:1px 6px rgba(17, 17, 17, 0.438);
 }
 
 .contact-icons  a:visited {
-    color: rosybrown;
+    color: black;
 }
 
 
