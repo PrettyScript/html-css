@@ -38,6 +38,28 @@ main {
     padding: 20px;
 }
 
+
+.bg-img {
+    /* The image used */
+    background-image: url("./assets/Miami.jpg");
+  
+    /* Add the blur effect */
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+
+    
+  
+    /* Full height */
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 .title-name {
     font-family: 'Sacramento', cursive;
     text-align: center;
@@ -53,6 +75,7 @@ main {
     width: 350px;
     height: 450px;
     margin: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     /* border: 4px dashed red; */
 }
 .item-b {
@@ -60,11 +83,23 @@ main {
     width: 300px;
     height: 200px;
     margin: 20px;
+    color: wheat;
+    padding: 25px 25px;
+    background-color: #A53F40;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.item-b h2, .item-c h2 {
+    text-align: center;
 }
 .item-c {
     /* border: 4px dashed yellow; */
-    width: 200px;
+    width: 300px;
     margin: 20px;
+    color: wheat;
+    padding: 25px 25px 25px 25px;
+    background-color: #A53F40;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 
