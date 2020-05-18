@@ -1,11 +1,22 @@
+body {
+    background-color: #A53F40;
+}
+
+
 form {
-    border: 3px solid rosybrown;
-    box-shadow: 10px 10px lightgray;
+    /* border: 3px solid rosybrown; */
+    /* box-shadow: 8px 8px 5px 1px rgba(17, 17, 17, 0.438); */
+    box-shadow: 0 0 10px 3px rgba(17, 17, 17, 0.438);
     padding: 20px;
     display: inline-block;
-    margin-left: 40%;
-    margin-right:50%;
+    width: 250px;
+    align-content: center;
     /* background-color: gray; */
+}
+
+.form {
+    display: flex;
+    justify-content: center;
 }
 
 input {
