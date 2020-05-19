@@ -124,3 +124,9 @@ main {
     } */
     
 }
+
+@media (max-width: 836px) {
+    .bg-img {
+        height: 100%;
+    }
+}
