@@ -89,31 +89,32 @@ main {
 
 #section {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 @media (max-width: 550px) {
-    #section {
+    /* #section {
         padding: 3.75%;
         display: grid;
         grid-template-columns: 100%;
         grid-column-gap: 0;
         grid-row-gap: 20px;
         padding: 3.75%;
-    }
+    } */
 
     .bg-img {
         height: 100%;
     }
 
-    .profile-img{
+    /* .profile-img{
         width: 200px;
         height: 225px;
     }
 
     .summary {
         height: 220px;
-    }
+    } */
     
 }
