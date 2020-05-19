@@ -46,12 +46,23 @@ i {
 }
 
 .fas {
-    text-shadow:1px 6px rgba(17, 17, 17, 0.438);
+    text-shadow:3px 6px rgba(17, 17, 17, 0.438);
 }
 
-.fab {
-    text-shadow:1px 6px rgba(17, 17, 17, 0.438);
+.fas:hover {
+    text-shadow:8px 6px rgba(17, 17, 17, 0.438);
 }
+
+
+.fab {
+    text-shadow:3px 6px rgba(17, 17, 17, 0.438);
+}
+
+.fab:hover {
+    text-shadow:8px 6px rgba(17, 17, 17, 0.438);
+}
+
+
 
 .contact-icons  a:visited {
     color: black;
