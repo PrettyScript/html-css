@@ -3,14 +3,11 @@ body {
 }
 
 form {
-    /* border: 3px solid rosybrown; */
-    /* box-shadow: 8px 8px 5px 1px rgba(17, 17, 17, 0.438); */
     box-shadow: 0 0 10px 3px rgba(17, 17, 17, 0.438);
     padding: 20px;
     display: inline-block;
     width: 250px;
     align-content: center;
-    /* background-color: gray; */
 }
 
 .form {
@@ -19,7 +16,6 @@ form {
 }
 
 input {
-    /* border: 3px dashed green; */
     margin-top: 15px;
 }
 
@@ -28,7 +24,6 @@ textarea {
 }
 
 h1 {
-    /* border: 3px dashed plum; */
     font-family: 'Sacramento', cursive;
     font-size: 60px;
     text-align: center;
@@ -36,13 +31,11 @@ h1 {
 }
 
 .contact-icons {
-    /* border: 3px dashed darkgreen; */
     text-align: center;
     padding-top: 50px;
 }
 
 i {
-    /* border: 3px dashed darkblue; */
     font-size: 50px;
     margin: 20px;
 }
