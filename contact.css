@@ -1,0 +1,73 @@
+body {
+    background-color: #A53F40;
+}
+
+form {
+    box-shadow: 0 0 10px 3px rgba(17, 17, 17, 0.438);
+    padding: 20px;
+    display: inline-block;
+    width: 250px;
+    align-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-top: 15px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.contact-icons {
+    text-align: center;
+    padding-top: 50px;
+}
+
+i {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.contact-icons a {
+    color: black;
+    
+}
+
+.fas {
+    text-shadow:3px 6px rgba(17, 17, 17, 0.438);
+}
+
+.fas:hover {
+    text-shadow:8px 6px rgba(17, 17, 17, 0.438);
+}
+
+
+.fab {
+    text-shadow:3px 6px rgba(17, 17, 17, 0.438);
+}
+
+.fab:hover {
+    text-shadow:8px 6px rgba(17, 17, 17, 0.438);
+}
+
+
+
+.contact-icons  a:visited {
+    color: black;
+}
+
+
+
+

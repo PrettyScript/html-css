@@ -1,0 +1,132 @@
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+
+.bg-img {
+    background-image: url("./assets/Miami.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-name {
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.profile-img {
+    width: 350px;
+    height: 450px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.summary {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    color: wheat;
+    padding: 25px 25px;
+    background-color: #A53F40;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.summary h2, .hobbies h2 {
+    text-align: center;
+}
+.hobbies {
+    width: 300px;
+    margin: 20px;
+    color: wheat;
+    padding: 25px 25px 25px 25px;
+    background-color: #A53F40;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+#section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 550px) {
+    /* #section {
+        padding: 3.75%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: 0;
+        grid-row-gap: 20px;
+        padding: 3.75%;
+    } */
+
+    .profile-img {
+        width: 13rem;
+        height: 20rem;
+    }
+
+    .bg-img {
+        height: 100%;
+    }
+
+
+    /* .profile-img{
+        width: 200px;
+        height: 225px;
+    }
+
+    .summary {
+        height: 220px;
+    } */
+    
+}
+
+@media (max-width: 836px) {
+    .bg-img {
+        height: 100%;
+    }
+}
